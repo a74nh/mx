@@ -8,6 +8,17 @@ A suite may import and depend on other suites. For an execution of mx, exactly o
 This is either the suite in whose directory `mx` is executed or the value of the global `-p` mx option.
 The set of suites reachable from the primary suite by transitive closure of the imports relation form the set that `mx` operates on.
 
+wer
+faw
+ef
+e
+f
+w
+we
+
+we
+w
+
 ### Running mx
 
 `mx` can be run directly (i.e., `python2.7 mx/mx.py ...`), but is more commonly invoked via the `mx/mx` bash script (which includes a Python version check). Adding the `mx/` directory to your PATH simplifies executing `mx`. The `mx/mx.cmd` script should be used on Windows.
