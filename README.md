@@ -8,6 +8,8 @@ A suite may import and depend on other suites. For an execution of mx, exactly o
 This is either the suite in whose directory `mx` is executed or the value of the global `-p` mx option.
 The set of suites reachable from the primary suite by transitive closure of the imports relation form the set that `mx` operates on.
 
+blah blah blah
+
 ### Running mx
 
 `mx` can be run directly (i.e., `python2.7 mx/mx.py ...`), but is more commonly invoked via the `mx/mx` bash script (which includes a Python version check). Adding the `mx/` directory to your PATH simplifies executing `mx`. The `mx/mx.cmd` script should be used on Windows.
@@ -25,7 +27,14 @@ For an example of `mx` usage, see the [README][1] for the Graal project.
 Note: There is a Bash completion script for global options and commands, located in `bash_completion` directory. Install it for example by `source`ing this script in your `~/.bashrc` file. If used, a temporary file `/tmp/mx-bash-completion-<project-path-hash>` is created and used for better performance. This should be OK since the `/tmp` directory is usually cleaned on every system startup.  
 [mx-honey](https://github.com/mukel/mx-honey) provides richer completions for `zsh` users.
 
-### Suites
+### S
+
+
+test
+
+
+
+uites
 
 The definition of a suite and its components is in a file named `suite.py` in the _mx metadata directory_ of the
 primary suite. This is the directory named `mx.<suite name>` in the suite's top level directory. For example,

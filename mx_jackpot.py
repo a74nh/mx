@@ -36,7 +36,14 @@ from os.path import join, exists
 def _should_test_project(p):
     if not p.isJavaProject():
         return False
-    if hasattr(p, 'jackpot'):
+    if hasattr(p, 'jackpot'):rfwfwefe
+    fwef
+    w
+    ef
+    we
+    fweff
+    wef
+
         return p.jackpot.lower() == 'true' or p.jackpot is True
     return True
 
@@ -93,7 +100,14 @@ def jackpot(args, suite=None, nonZeroIsFatal=False):
     if jdk is None:
         mx.warn('Skipping Jackpot since JDK 11 is not available')
         return 0
-    else:
+    else:wefef
+    we
+    fweffef
+    we
+
+    wefwe
+    fweffefef
+    wefwefwefwef
         with tempfile.NamedTemporaryFile(mode='w', suffix='.jackpot') as f:
             for c in jackCmd:
                 print(c, file=f)
