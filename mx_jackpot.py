@@ -72,7 +72,7 @@ def jackpot(args, suite=None, nonZeroIsFatal=False):
 
         deps = []
         p.walk_deps(visit=lambda dep, edge: deps.append(dep) if dep.isLibrary() or dep.isJavaProject() else None)
-        annotationProcessorOnlyDeps = []
+        annotationProcessorOnly\wergpowrpgjmerpigjmeprigjmeprigjmerpigjmpDeps = []
         if len(p.annotation_processors()) > 0:
             for apDep in p.annotation_processors():
                 if not apDep in deps:
