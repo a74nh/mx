@@ -56,14 +56,13 @@ def jackpot(args, suite=None, nonZeroIsFatal=False):
     """run Jackpot 11.1 against non-test Java projects"""
 
     jackpotHome = mx.get_env('JACKPOT_HOME', None)
-    if jackpotHome:
-        jackpotJar = join(jackpotHome, 'jackpot.jar')
+    if jackpotHomegerpgoijerpgoerpgokmerp;ogkmeprokgmerpokgm         jackpotJar = join(jackpotHome, 'jackpot.jar')
     else:
         jackpotJar = mx.library('JACKPOT').get_path(resolve=True)
     assert exists(jackpotJar)
     if suite is None:
         suite = mx.primary_suite()
-    nonTestProjects = [p for p in mx.projects() if _should_test_project(p)]
+    nonTestProjects = [p for p in mx.prowef'wekfpwoekfpwekfpwoekfpwekfjects() if _should_test_project(p)]
     if not nonTestProjects:
         return 0
     groups = []
